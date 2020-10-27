@@ -13,6 +13,10 @@
 		B45C6E6125487FB200DDC54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C6E6025487FB200DDC54C /* Assets.xcassets */; };
 		B45C6E6425487FB200DDC54C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45C6E6325487FB200DDC54C /* Preview Assets.xcassets */; };
 		B45C6E6725487FB200DDC54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45C6E6525487FB200DDC54C /* LaunchScreen.storyboard */; };
+		B45C6E7325489DFD00DDC54C /* CheckMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6E7225489DFD00DDC54C /* CheckMeButton.swift */; };
+		B45C6E762548A1D600DDC54C /* RepeatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6E752548A1D600DDC54C /* RepeatButton.swift */; };
+		B45C6E792548A61C00DDC54C /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6E782548A61C00DDC54C /* SliderUIKit.swift */; };
+		B45C6E7C2548AE8E00DDC54C /* SliderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45C6E7B2548AE8E00DDC54C /* SliderSwiftUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B45C6E6325487FB200DDC54C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B45C6E6625487FB200DDC54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45C6E6825487FB200DDC54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45C6E7225489DFD00DDC54C /* CheckMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeButton.swift; sourceTree = "<group>"; };
+		B45C6E752548A1D600DDC54C /* RepeatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatButton.swift; sourceTree = "<group>"; };
+		B45C6E782548A61C00DDC54C /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
+		B45C6E7B2548AE8E00DDC54C /* SliderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwiftUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				B45C6E5A25487FAF00DDC54C /* AppDelegate.swift */,
 				B45C6E5C25487FAF00DDC54C /* SceneDelegate.swift */,
 				B45C6E5E25487FAF00DDC54C /* ContentView.swift */,
+				B45C6E782548A61C00DDC54C /* SliderUIKit.swift */,
+				B45C6E7B2548AE8E00DDC54C /* SliderSwiftUI.swift */,
+				B45C6E752548A1D600DDC54C /* RepeatButton.swift */,
+				B45C6E7225489DFD00DDC54C /* CheckMeButton.swift */,
 				B45C6E6025487FB200DDC54C /* Assets.xcassets */,
 				B45C6E6525487FB200DDC54C /* LaunchScreen.storyboard */,
 				B45C6E6825487FB200DDC54C /* Info.plist */,
@@ -146,8 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45C6E5B25487FAF00DDC54C /* AppDelegate.swift in Sources */,
+				B45C6E792548A61C00DDC54C /* SliderUIKit.swift in Sources */,
+				B45C6E7C2548AE8E00DDC54C /* SliderSwiftUI.swift in Sources */,
 				B45C6E5D25487FAF00DDC54C /* SceneDelegate.swift in Sources */,
+				B45C6E7325489DFD00DDC54C /* CheckMeButton.swift in Sources */,
 				B45C6E5F25487FAF00DDC54C /* ContentView.swift in Sources */,
+				B45C6E762548A1D600DDC54C /* RepeatButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
